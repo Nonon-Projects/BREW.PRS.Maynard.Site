@@ -1,6 +1,20 @@
 ﻿@{
     ViewBag.Title = "Home Page";
+    Response.Headers.Add("Content-Security-Policy", "upgrade-insecure-requests");
+    Response.Headers.Add("Access-Control-Allow-Origin", "*");
+    Response.Headers.Add("Connection", "keep-alive");
+    Response.Headers.Add("Accept", "*/*");
 }
+<script src="/Scripts/jquery-3.4.1.js"></script>
+<script>
+    //http://www.geoplugin.net/json.gp
+    //https://ipinfo.io?token=e2942f287af972
+
+</script>
+<div id="images"></div>
+
+
+</script>
 
 <div class="jumbotron">
     <h1>Maynard Datahan Nudes</h1>
@@ -29,3 +43,93 @@
         <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
     </div>
 </div>
+@model BREW.PRS.Maynard.Site.Controllers.LocatorDto
+
+@using (Html.BeginForm("MyPost", "Home", FormMethod.Post, new { id = "myform" }))
+{
+    @Html.EditorFor(model => model.Ip)
+    @Html.EditorFor(model => model.City)
+    @Html.EditorFor(model => model.Country)
+    @Html.EditorFor(model => model.HostName)
+    @Html.EditorFor(model => model.Location)
+    @Html.EditorFor(model => model.Org)
+    @Html.EditorFor(model => model.Postal)
+    @Html.EditorFor(model => model.Region)
+
+    <input type="submit" id="btn" value="Html PsBk Click" />
+}
+
+<script>
+    addData("test");
+    var data = "";
+    //$.get("https://ipinfo.io?token=e2942f287af972", function (response) {
+    //    $('#Ip').val(response.ip);
+    //    $('#City').val(response.city);
+    //    $('#Country').val(response.country);
+    //    $('#HostName').val(response.hostname);
+    //    $('#Location').val(response.location);
+    //    $('#Org').val(response.org);
+    //    $('#Postal').val(response.postal);
+    //    $('#Region').val(response.region);
+    //    data = response.city;
+    //    // $.post("https://localhost:44300/api/Locators/Ensure/", response);
+
+    //    ////    console.log("data:" + response.hostname);
+
+    //    // addData(response);
+
+    //}, "json");
+
+
+    // addData(data)
+    //$('#form').submit(function (eventObj) {
+    //    $('#form').append('<input type="hidden" name="Ip" value="someValue">');
+    //    return true;
+    //});
+
+
+    $(document).ready(function () {
+
+        $.get("https://ipinfo.io?token=e2942f287af972", function (response) {
+            $('#Ip').val(response.ip);
+            $('#City').val(response.city);
+            $('#Country').val(response.country);
+            $('#HostName').val(response.hostname);
+            $('#Location').val(response.loc);
+            $('#Org').val(response.org);
+            $('#Postal').val(response.postal);
+            $('#Region').val(response.region);
+            data = response.city;
+
+
+        }, "json");
+        setTimeout(function () {
+            $("#btn").trigger("click");
+        }, 3000);
+
+        
+      
+    });
+
+    $("#btn").click(function () {
+      
+ 
+    });
+  
+
+
+
+    function addData(data) {// pass your data in method
+        $.ajax({
+            type: "POST",
+            url: "https://localhost:44300/api/Locators/Ensure/",
+            data: data,// now data come in this function
+            contentType: "application/json; charset=utf-8",
+            dataType: "json",
+            success: function (data, status) {
+
+                alert("success");// write success in " "
+            }
+        });
+    }
+</script>

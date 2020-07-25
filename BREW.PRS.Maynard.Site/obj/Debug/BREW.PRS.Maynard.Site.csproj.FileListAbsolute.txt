@@ -77,3 +77,5 @@ D:\DEV\Personal\Maynard\Site\BREW.PRS.Maynard.Site\BREW.PRS.Maynard.Site\obj\Deb
 D:\DEV\Personal\Maynard\Site\BREW.PRS.Maynard.Site\BREW.PRS.Maynard.Site\obj\Debug\BREW.PRS.Maynard.Site.csproj.CopyComplete
 D:\DEV\Personal\Maynard\Site\BREW.PRS.Maynard.Site\BREW.PRS.Maynard.Site\obj\Debug\BREW.PRS.Maynard.Site.dll
 D:\DEV\Personal\Maynard\Site\BREW.PRS.Maynard.Site\BREW.PRS.Maynard.Site\obj\Debug\BREW.PRS.Maynard.Site.pdb
+D:\DEV\Personal\Maynard\Site\BREW.PRS.Maynard.Site\BREW.PRS.Maynard.Site\bin\System.Net.Http.Formatting.dll
+D:\DEV\Personal\Maynard\Site\BREW.PRS.Maynard.Site\BREW.PRS.Maynard.Site\bin\System.Net.Http.Formatting.xml
