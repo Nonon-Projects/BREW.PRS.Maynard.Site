@@ -16,7 +16,7 @@ namespace BREW.PRS.Maynard.Site
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
+                defaults: new { controller = "Home", action = "Collection", id = UrlParameter.Optional }
             );
         }
     }

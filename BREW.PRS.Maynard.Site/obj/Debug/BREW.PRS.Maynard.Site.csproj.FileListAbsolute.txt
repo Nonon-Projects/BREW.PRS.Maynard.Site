@@ -54,6 +54,7 @@ D:\DEV\Personal\Maynard\Site\BREW.PRS.Maynard.Site\BREW.PRS.Maynard.Site\bin\Ant
 D:\DEV\Personal\Maynard\Site\BREW.PRS.Maynard.Site\BREW.PRS.Maynard.Site\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 D:\DEV\Personal\Maynard\Site\BREW.PRS.Maynard.Site\BREW.PRS.Maynard.Site\bin\Microsoft.Web.Infrastructure.dll
 D:\DEV\Personal\Maynard\Site\BREW.PRS.Maynard.Site\BREW.PRS.Maynard.Site\bin\Newtonsoft.Json.dll
+D:\DEV\Personal\Maynard\Site\BREW.PRS.Maynard.Site\BREW.PRS.Maynard.Site\bin\System.Net.Http.Formatting.dll
 D:\DEV\Personal\Maynard\Site\BREW.PRS.Maynard.Site\BREW.PRS.Maynard.Site\bin\System.Web.Helpers.dll
 D:\DEV\Personal\Maynard\Site\BREW.PRS.Maynard.Site\BREW.PRS.Maynard.Site\bin\System.Web.Mvc.dll
 D:\DEV\Personal\Maynard\Site\BREW.PRS.Maynard.Site\BREW.PRS.Maynard.Site\bin\System.Web.Optimization.dll
@@ -62,6 +63,7 @@ D:\DEV\Personal\Maynard\Site\BREW.PRS.Maynard.Site\BREW.PRS.Maynard.Site\bin\Sys
 D:\DEV\Personal\Maynard\Site\BREW.PRS.Maynard.Site\BREW.PRS.Maynard.Site\bin\System.Web.WebPages.dll
 D:\DEV\Personal\Maynard\Site\BREW.PRS.Maynard.Site\BREW.PRS.Maynard.Site\bin\System.Web.WebPages.Razor.dll
 D:\DEV\Personal\Maynard\Site\BREW.PRS.Maynard.Site\BREW.PRS.Maynard.Site\bin\WebGrease.dll
+D:\DEV\Personal\Maynard\Site\BREW.PRS.Maynard.Site\BREW.PRS.Maynard.Site\bin\System.Net.Http.Formatting.xml
 D:\DEV\Personal\Maynard\Site\BREW.PRS.Maynard.Site\BREW.PRS.Maynard.Site\bin\System.Web.Helpers.xml
 D:\DEV\Personal\Maynard\Site\BREW.PRS.Maynard.Site\BREW.PRS.Maynard.Site\bin\System.Web.Mvc.xml
 D:\DEV\Personal\Maynard\Site\BREW.PRS.Maynard.Site\BREW.PRS.Maynard.Site\bin\System.Web.Optimization.xml
@@ -72,10 +74,8 @@ D:\DEV\Personal\Maynard\Site\BREW.PRS.Maynard.Site\BREW.PRS.Maynard.Site\bin\Sys
 D:\DEV\Personal\Maynard\Site\BREW.PRS.Maynard.Site\BREW.PRS.Maynard.Site\bin\Newtonsoft.Json.xml
 D:\DEV\Personal\Maynard\Site\BREW.PRS.Maynard.Site\BREW.PRS.Maynard.Site\bin\Antlr3.Runtime.pdb
 D:\DEV\Personal\Maynard\Site\BREW.PRS.Maynard.Site\BREW.PRS.Maynard.Site\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-D:\DEV\Personal\Maynard\Site\BREW.PRS.Maynard.Site\BREW.PRS.Maynard.Site\obj\Debug\BREW.PRS.Maynard.Site.csprojAssemblyReference.cache
 D:\DEV\Personal\Maynard\Site\BREW.PRS.Maynard.Site\BREW.PRS.Maynard.Site\obj\Debug\BREW.PRS.Maynard.Site.csproj.CoreCompileInputs.cache
 D:\DEV\Personal\Maynard\Site\BREW.PRS.Maynard.Site\BREW.PRS.Maynard.Site\obj\Debug\BREW.PRS.Maynard.Site.csproj.CopyComplete
 D:\DEV\Personal\Maynard\Site\BREW.PRS.Maynard.Site\BREW.PRS.Maynard.Site\obj\Debug\BREW.PRS.Maynard.Site.dll
 D:\DEV\Personal\Maynard\Site\BREW.PRS.Maynard.Site\BREW.PRS.Maynard.Site\obj\Debug\BREW.PRS.Maynard.Site.pdb
-D:\DEV\Personal\Maynard\Site\BREW.PRS.Maynard.Site\BREW.PRS.Maynard.Site\bin\System.Net.Http.Formatting.dll
-D:\DEV\Personal\Maynard\Site\BREW.PRS.Maynard.Site\BREW.PRS.Maynard.Site\bin\System.Net.Http.Formatting.xml
+D:\DEV\Personal\Maynard\Site\BREW.PRS.Maynard.Site\BREW.PRS.Maynard.Site\obj\Debug\BREW.PRS.Maynard.Site.csprojAssemblyReference.cache

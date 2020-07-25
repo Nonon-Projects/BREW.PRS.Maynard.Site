@@ -65,9 +65,9 @@ namespace BREW.PRS.Maynard.Site.Controllers
             //    }
             //}
 
-            return View("About");
+            return View("Collection");
         }
-        public ActionResult About()
+        public ActionResult Collection()
         {
             ViewBag.Message = "Your application description page.";
 
